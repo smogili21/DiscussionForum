@@ -1,0 +1,31 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "backend for the project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"seed": "node ./tasks/seed.js",
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"keywords": [
+		"backend",
+		"graphql",
+		"redis"
+	],
+	"author": "Hanish, Manas, Pradeep, Dhruv",
+	"license": "ISC",
+	"dependencies": {
+		"apollo-server": "^3.5.0",
+		"axios": "^0.21.1",
+		"bluebird": "^3.7.2",
+		"graphql": "^16.0.1",
+		"mongodb": "^4.2.0",
+		"mongoose": "^6.0.13",
+		"nodemon": "^2.0.15",
+		"redis": "^3.1.2",
+		"seed": "^0.4.4",
+		"uuid": "^8.3.2"
+	}
+}

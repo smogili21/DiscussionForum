@@ -1,0 +1,24 @@
+{
+  "name": "round_table",
+  "version": "1.0.0",
+  "description": "A web project for discussions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./tasks/seed.js",
+    "start" : " node ./backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdtble/Project.git"
+  },
+  "author": "Hanish, Pradeep, Manas, Dhruv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdtble/Project/issues"
+  },
+  "homepage": "https://github.com/rdtble/Project#readme",
+  "dependencies": {
+    "mongoose": "^6.0.13"
+  }
+}
